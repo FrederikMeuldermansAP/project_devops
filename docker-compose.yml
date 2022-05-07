@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  web:
+    image: nginx:alpine
+    volumes:
+    ports:
+      - localhost:80:85
+
+  db:
+
+
+
+
