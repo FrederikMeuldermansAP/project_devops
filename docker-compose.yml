@@ -4,7 +4,7 @@ services:
     image: nginx:alpine
     volumes:
     ports:
-      - localhost:80:85
+      - localhost:8080:80
 
   db:
 
